@@ -8,7 +8,7 @@
           <factory-entry name="SakilaPersistenceUnit" value="172c5b0a-29f1-4ed3-a151-5299f5f33797" />
         </datasource-mapping>
         <naming-strategy-map />
-        <deploymentDescriptor name="persistence.xml" url="file://$MODULE_DIR$/src/META-INF/persistence.xml" />
+        <deploymentDescriptor name="persistence.xml" url="file://$MODULE_DIR$/src/main/resources/META-INF/persistence.xml" />
       </configuration>
     </facet>
   </component>

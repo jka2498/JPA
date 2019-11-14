@@ -15,6 +15,8 @@ public class PersistenceStarter {
         EntityManager entityManager = entityManagerFactory.createEntityManager();
         SakilaManager sakilamanager = new SakilaManager();
         sakilamanager.getActorDetails(entityManager,10);
+        sakilamanager.setActorDetails(entityManager);
+
         System.out.println();
     }
 }
